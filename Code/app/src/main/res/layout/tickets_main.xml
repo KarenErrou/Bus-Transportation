@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/pop_up_customized">
+
+
+        <TextView
+            android:id="@+id/closePop"
+            android:layout_width="40dp"
+            android:layout_height="32dp"
+            android:layout_gravity="end"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/circlebackground"
+            android:gravity="center"
+            android:text="X"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="5dp"
+            android:text='Category: '
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+
+            <RadioButton
+                android:id="@+id/radio1"
+                android:layout_width="220dp"
+                android:layout_height="72dp"
+                android:textColor="@android:color/white"
+                android:duplicateParentState="false"
+                android:gravity="center"
+                android:buttonTint="@color/colorCircle"
+                android:text="Adult"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+            <RadioButton
+                android:id="@+id/radio2"
+                android:layout_width="220dp"
+                android:layout_height="72dp"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:buttonTint="@color/colorCircle"
+                android:text="Student"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+            <RadioButton
+                android:id="@+id/radio3"
+                android:layout_width="220dp"
+                android:layout_height="72dp"
+                android:buttonTint="@color/colorCircle"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:text="Child"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+        </RadioGroup>
+
+
+
+</LinearLayout>
