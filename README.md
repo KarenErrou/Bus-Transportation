@@ -22,11 +22,11 @@ The application has a client mode and an employee mode.
 	- [x] Add information about station, bus, or bus schedule
 
 ## Technologies used
-Java 
-Android Studio
-Google Places
-Dijkstra Algorithm
+Java  
+Android Studio  
+Google Places  
+Dijkstra Algorithm  
 
 ## Authors
-Errou Karen
+Errou Karen  
 Najjar Cynthia
