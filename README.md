@@ -1,8 +1,14 @@
 # Bus Transportation LBT
 
-This is a mobile application for bus transportations in Lebanon.
-The application is developed using Java in Android Studio. 
-Google Places is used to retreive locations.
+This is a mobile application for bus transportations in Lebanon.  
+The application is developed using Java in Android Studio.  
+Google Places is used to retreive locations.  
+
+## Technologies used
+Java  
+Android Studio  
+Google Places  
+Dijkstra Algorithm  
 
 ## Features:
 The application has a client mode and an employee mode.
@@ -20,12 +26,6 @@ The application has a client mode and an employee mode.
 	- [x] Update information about station, bus, or bus schedule
 	- [x] Add an employee
 	- [x] Add information about station, bus, or bus schedule
-
-## Technologies used
-Java  
-Android Studio  
-Google Places  
-Dijkstra Algorithm  
 
 ## Authors
 Errou Karen  
