@@ -5,3 +5,5 @@ Developed by:
 - Cynthia Najjar
 
 This project is about a bus Transportation mobile application.
+
+##Features
